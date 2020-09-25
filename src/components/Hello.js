@@ -20,7 +20,7 @@ const Hello = () => {
                 align="center"
                 gutterBottom
             >
-                Welcome to Project-Amsterdam
+                Welcome to Project-Apollo
             </Typography>
         </ThemeProvider>
     );
