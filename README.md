@@ -70,6 +70,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Contributing 🎃
 ------------
 
+`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+
 Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
  1. **Fork** the repo on GitHub
@@ -78,6 +80,8 @@ Please refer to the project's style and contribution guidelines for submitting p
  4. **Push** your work back up to your fork
  5. Submit a **Pull request** so that we can review your changes
 
-NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+NOTE 1: Be sure to merge the latest from "upstream" before making a pull request!
 
-`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+NOTE 2: Please abide by the [Code of Conduct](https://github.com/007vedant/project-apollo/blob/master/CODE_OF_CONDUCT.md).
+
+
