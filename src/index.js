@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Root from './Root';
-import App from './components/App';
+import App from './views/App';
 
-// import './index.css';
+import './index.css';
 
 ReactDOM.render(
   <Root>
