@@ -2,7 +2,7 @@ name: Continous Integration
 
 on:
     pull_request:
-        branches: [master]
+        branches: [dev]
 
 jobs:
     test_pull_request:
