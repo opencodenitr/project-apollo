@@ -80,8 +80,8 @@ Please refer to the project's style and contribution guidelines for submitting p
  4. **Push** your work back up to your fork
  5. Submit a **Pull request** so that we can review your changes
 
-NOTE 1: Be sure to merge the latest from "upstream" before making a pull request!
+NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/opencodenitr/project-apollo/blob/master/CODE_OF_CONDUCT.md).
 
-NOTE 2: Please abide by the [Code of Conduct](https://github.com/007vedant/project-apollo/blob/master/CODE_OF_CONDUCT.md).
+NOTE 2: Please abide by the [Code of Conduct](https://github.com/opencodenitr/project-apollo/blob/master/CODE_OF_CONDUCT.md).
 
 
