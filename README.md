@@ -1,3 +1,21 @@
+### Contributing 🎃
+------------
+
+`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+
+Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/opencodenitr/project-apollo/blob/dev/CODE_OF_CONDUCT.md).
+
+NOTE 2: Please abide by the [Code of Conduct](https://github.com/opencodenitr/project-apollo/blob/dev/CODE_OF_CONDUCT.md).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,22 +84,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-### Contributing 🎃
-------------
-
-`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
-
-Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
-
- 1. **Fork** the repo on GitHub
- 2. **Clone** the project to your own machine
- 3. **Commit** changes to your own branch
- 4. **Push** your work back up to your fork
- 5. Submit a **Pull request** so that we can review your changes
-
-NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/opencodenitr/project-apollo/blob/master/CODE_OF_CONDUCT.md).
-
-NOTE 2: Please abide by the [Code of Conduct](https://github.com/opencodenitr/project-apollo/blob/master/CODE_OF_CONDUCT.md).
-
-
