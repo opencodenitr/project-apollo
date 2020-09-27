@@ -26,7 +26,7 @@ $ git clone https://github.com/<User-Name>/<Repo-Name>.git
 $ git remote add upstreatm https://github.com/opencodenitr/project-apollo.git
 # Fetch and merge with upstream/dev
 $ git fetch upstream
-$ git rebase upstream/dev
+$ git merge upstream/dev
 
 ## Step 2: Create and Publish Working Branch
 $ git checkout -b <type>/<issue|issue-number>/{<additional-fixes>}
@@ -45,14 +45,14 @@ $ git push origin <type>/<issue|issue-number>/{<additional-fixes>}
 ## Committing and pushing your work
 # Ensure branch
 $ git branch
-# Fetch and rebase with upstream/dev
+# Fetch and merge with upstream/dev
 $ git fetch upstream
 $ git merge upstream/development
 # Add untracked files
 $ git add .
 # Commit all changes with appropriate commit message and description
 $ git commit -m "your-commit-message" -m "your-commit-description"
-# Fetch and rebase with upstream/development again
+# Fetch and merge with upstream/development again
 $ git fetch upstream
 $ git merge upstream/dev
 # Push changes to your forked repository
