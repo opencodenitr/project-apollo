@@ -23,7 +23,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 # Clone the repo
 $ git clone https://github.com/<User-Name>/<Repo-Name>.git
 # Add upstream remote
-$ git remote add upstreatm https://github.com/opencodenitr/project-apollo.git
+$ git remote add upstream https://github.com/opencodenitr/project-apollo.git
 # Fetch and merge with upstream/dev
 $ git fetch upstream
 $ git merge upstream/dev
