@@ -5,26 +5,19 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+  
     {
-      "login": "KoushikSahu",
-      "name": "Koushik Sahu",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/39738439?v=4",
-      "profile": "https://github.com/KoushikSahu",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "riteshsp2000",
-      "name": "Ritesh Patil",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/56112399?v=4",
-      "profile": "https://github.com/riteshsp2000",
+      "login": "DesignrKnight",
+      "name": "Abel Mathew",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27865704?v=4",
+      "profile": "https://designrknight-website.web.app/",
       "contributions": [
         "projectManagement",
         "code"
         ]
-     },
-     {
+      },
+      
+      {
       "login": "ankitkumarsamota121",
       "name": "Ankit Samota",
       "avatar_url": "https://avatars0.githubusercontent.com/u/46669484?v=4",
@@ -34,7 +27,8 @@
         "code"
         ]
       },
-     {
+      
+      {
       "login": "007vedant",
       "name": "Vedant Raghuwanshi",
       "avatar_url": "https://avatars3.githubusercontent.com/u/41552480?v=4",
@@ -44,7 +38,8 @@
         "code"
        ]
       },
-    {
+      
+      {
       "login": "nayakashutosh9",
       "name": "Ashutosh Nayak",
       "avatar_url": "https://avatars2.githubusercontent.com/u/43809818?v=4",
@@ -54,6 +49,28 @@
         "projectManagement"
         ]
         },
+      
+    {
+      "login": "KoushikSahu",
+      "name": "Koushik Sahu",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39738439?v=4",
+      "profile": "https://github.com/KoushikSahu",
+      "contributions": [
+        "doc"
+      ]
+    },
+    
+     {
+      "login": "riteshsp2000",
+      "name": "Ritesh Patil",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56112399?v=4",
+      "profile": "https://github.com/riteshsp2000",
+      "contributions": [
+        "projectManagement",
+        "code"
+        ]
+     },
+    
         {
       "login": "all-contributors",
       "name": "All Contributors",
