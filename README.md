@@ -1,6 +1,6 @@
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ### Contributing 🎃
 ------------
@@ -105,6 +105,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/KoushikSahu"><img src="https://avatars0.githubusercontent.com/u/39738439?v=4" width="100px;" alt=""/><br /><sub><b>Koushik Sahu</b></sub></a><br /><a href="https://github.com/opencodenitr/project-apollo/commits?author=KoushikSahu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://designrknight-website.web.app/"><img src="https://avatars0.githubusercontent.com/u/27865704?v=4" width="100px;" alt=""/><br /><sub><b>Abel Mathew</b></sub></a><br /><a href="#projectManagement-DesignrKnight" title="Project Management">📆</a> <a href="https://github.com/opencodenitr/project-apollo/commits?author=DesignrKnight" title="Code">💻</a></td>
   </tr>
 </table>
 
