@@ -13,6 +13,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nayakashutosh9",
+      "name": "Ashutosh Nayak",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43809818?v=4",
+      "profile": "https://nayakashutosh9.github.io/portfolio/",
+      "contributions": [
+        "maintenance",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
