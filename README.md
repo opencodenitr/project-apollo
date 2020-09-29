@@ -106,6 +106,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/KoushikSahu"><img src="https://avatars0.githubusercontent.com/u/39738439?v=4" width="100px;" alt=""/><br /><sub><b>Koushik Sahu</b></sub></a><br /><a href="https://github.com/opencodenitr/project-apollo/commits?author=KoushikSahu" title="Documentation">📖</a></td>
     <td align="center"><a href="https://nayakashutosh9.github.io/portfolio/"><img src="https://avatars2.githubusercontent.com/u/43809818?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Nayak</b></sub></a><br /><a href="#maintenance-nayakashutosh9" title="Maintenance">🚧</a> <a href="#projectManagement-nayakashutosh9" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://allcontributors.org"><img src="https://avatars1.githubusercontent.com/u/46410174?v=4" width="100px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="#tool-all-contributors" title="Tools">🔧</a></td>
   </tr>
 </table>
 
