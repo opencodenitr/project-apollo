@@ -5,6 +5,51 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+  
+    {
+      "login": "DesignrKnight",
+      "name": "Abel Mathew",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27865704?v=4",
+      "profile": "https://designrknight-website.web.app/",
+      "contributions": [
+        "projectManagement",
+        "code"
+        ]
+      },
+      
+      {
+      "login": "ankitkumarsamota121",
+      "name": "Ankit Samota",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46669484?v=4",
+      "profile": "https://github.com/ankitkumarsamota121",
+      "contributions": [
+        "projectManagement",
+        "code"
+        ]
+      },
+      
+      {
+      "login": "007vedant",
+      "name": "Vedant Raghuwanshi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/41552480?v=4",
+      "profile": "https://www.linkedin.com/in/vedantraghuwanshi/",
+      "contributions": [
+        "projectManagement",
+        "code"
+       ]
+      },
+      
+      {
+      "login": "nayakashutosh9",
+      "name": "Ashutosh Nayak",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43809818?v=4",
+      "profile": "https://nayakashutosh9.github.io/portfolio/",
+      "contributions": [
+        "maintenance",
+        "projectManagement"
+        ]
+        },
+      
     {
       "login": "KoushikSahu",
       "name": "Koushik Sahu",
@@ -14,14 +59,25 @@
         "doc"
       ]
     },
-    {
-      "login": "DesignrKnight",
-      "name": "Abel Mathew",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/27865704?v=4",
-      "profile": "https://designrknight-website.web.app/",
+    
+     {
+      "login": "riteshsp2000",
+      "name": "Ritesh Patil",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56112399?v=4",
+      "profile": "https://github.com/riteshsp2000",
       "contributions": [
         "projectManagement",
         "code"
+        ]
+     },
+    
+        {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "tool"
       ]
     }
   ],
