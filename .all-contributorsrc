@@ -22,6 +22,25 @@
       "contributions": [
         "projectManagement",
         "code"
+       ]
+      },
+    {
+      "login": "nayakashutosh9",
+      "name": "Ashutosh Nayak",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43809818?v=4",
+      "profile": "https://nayakashutosh9.github.io/portfolio/",
+      "contributions": [
+        "maintenance",
+        "projectManagement"
+        ]
+        },
+        {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "tool"
       ]
     }
   ],
