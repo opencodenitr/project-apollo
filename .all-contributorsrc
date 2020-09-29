@@ -13,6 +13,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "007vedant",
+      "name": "Vedant Raghuwanshi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/41552480?v=4",
+      "profile": "https://www.linkedin.com/in/vedantraghuwanshi/",
+      "contributions": [
+        "projectManagement",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
