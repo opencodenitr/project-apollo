@@ -1,3 +1,4 @@
+[![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 ### Contributing 🎃
 ------------
 
@@ -17,6 +18,12 @@ NOTE 2: Please abide by the [Code of Conduct](https://github.com/opencodenitr/pr
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Starware
+
+opencodenitr/project-apollo is Starware.  
+This means you're free to use the project, as long as you star its GitHub repository.  
+Your appreciation makes us grow and glow up. ⭐
 
 ## Available Scripts
 
