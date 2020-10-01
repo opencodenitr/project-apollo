@@ -26,7 +26,7 @@ export default SectionLayout;
 
 const useStyle = makeStyles((theme) => ({
   container: {
-    height: '90vh',
+    height: '95vh',
     padding: theme.spacing(0, 1),
     paddingTop: theme.mixins.toolbar.minHeight,
     position: 'relative',
@@ -36,6 +36,6 @@ const useStyle = makeStyles((theme) => ({
   },
   chevronDown: {
     position: 'absolute',
-    bottom: 10,
+    bottom: 20,
   },
 }));

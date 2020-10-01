@@ -18,7 +18,6 @@ function Home() {
   const contactRef = useRef();
 
   const scrollToRef = (ref) => {
-    // window.scrollTo(0, ref.current.offsetTop);
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
