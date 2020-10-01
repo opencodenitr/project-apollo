@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 // Libraries
 import { makeStyles } from '@material-ui/core/styles';
@@ -12,12 +12,17 @@ import Welcome from '../components/HomePage/Welcome';
 
 function Home() {
   const classes = useStyle();
+  const welcomeRef = useRef();
+  const aboutRef = useRef();
+  const focusRef = useRef();
+  const contactRef = useRef();
+
   return (
     <Container className={classes.container}>
-      <Welcome />
-      <About />
-      <Focus />
-      <Contact />
+      <Welcome ref={welcomeRef} />
+      <About ref={aboutRef} />
+      <Focus ref={focusRef} />
+      <Contact ref={contactRef} />
     </Container>
   );
 }
@@ -26,7 +31,6 @@ export default Home;
 
 const useStyle = makeStyles((theme) => ({
   container: {
-    height: '100vh',
     padding: theme.spacing(0, 1),
   },
 }));
