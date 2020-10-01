@@ -15,8 +15,8 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router history={createBrowserHistory}>
+        <Navbar />
         <Switch>
-          <Navbar />
           <Route path='/' exact>
             <Home />
           </Route>
