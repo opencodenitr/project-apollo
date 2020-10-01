@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
-function SectionLayout({ children, lastSection, onChevronClick, alternate }) {
+function SectionLayout({ children, lastSection, onScrollClick, alternate }) {
   const classes = useStyle();
 
   return (
@@ -15,7 +15,7 @@ function SectionLayout({ children, lastSection, onChevronClick, alternate }) {
       {lastSection ? null : (
         <KeyboardArrowDownIcon
           className={classes.chevronDown}
-          onClick={onChevronClick}
+          onClick={onScrollClick}
         />
       )}
     </Container>

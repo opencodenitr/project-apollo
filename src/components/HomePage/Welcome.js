@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import SectionLayout from './SectionLayout';
 
-function Welcome() {
+function Welcome({ onScrollClick }) {
   const classes = useStyle();
 
   return (
-    <SectionLayout>
+    <SectionLayout onScrollClick={onScrollClick}>
       <h1>Welcome Section</h1>
     </SectionLayout>
   );

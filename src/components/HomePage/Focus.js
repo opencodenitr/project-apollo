@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import SectionLayout from './SectionLayout';
 
-function Focus() {
+function Focus({ onScrollClick }) {
   const classes = useStyle();
 
   return (
-    <SectionLayout>
+    <SectionLayout onScrollClick={onScrollClick}>
       <h1>Focus Section</h1>
     </SectionLayout>
   );

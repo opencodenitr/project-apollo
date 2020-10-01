@@ -17,12 +17,25 @@ function Home() {
   const focusRef = useRef();
   const contactRef = useRef();
 
+  const scrollToRef = (ref) => {
+    // window.scrollTo(0, ref.current.offsetTop);
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <Container className={classes.container}>
-      <Welcome ref={welcomeRef} />
-      <About ref={aboutRef} />
-      <Focus ref={focusRef} />
-      <Contact ref={contactRef} />
+      <div ref={welcomeRef}>
+        <Welcome onScrollClick={() => scrollToRef(aboutRef)} />
+      </div>
+      <div ref={aboutRef}>
+        <About onScrollClick={() => scrollToRef(focusRef)} />
+      </div>
+      <div ref={focusRef}>
+        <Focus onScrollClick={() => scrollToRef(contactRef)} />
+      </div>
+      <div ref={contactRef}>
+        <Contact />
+      </div>
     </Container>
   );
 }
