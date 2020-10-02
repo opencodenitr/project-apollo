@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './root';
+import Root from './Root';
 import App from './views/App';
 
-import './index.css';
+// import './index.css';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <Root>
-        <App />
-    </Root>,
-    document.querySelector('#root')
+  <Root>
+    <App />
+  </Root>,
+  document.querySelector('#root')
 );
 
 // If you want your app to work offline and load faster, you can change
