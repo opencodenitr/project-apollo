@@ -8,11 +8,16 @@ function Welcome({ onScrollClick }) {
 
   return (
     <SectionLayout onScrollClick={onScrollClick}>
-      <h1>Welcome Section</h1>
+      <h1 className={classes.heading}>Welcome Section</h1>
     </SectionLayout>
   );
 }
 
 export default Welcome;
 
-const useStyle = makeStyles((theme) => ({}));
+const useStyle = makeStyles((theme) => ({
+  heading: {
+    fontFamily: theme.typography.fontFamily,
+    fontSize: '3em',
+  },
+}));

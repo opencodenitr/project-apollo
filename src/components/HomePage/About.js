@@ -8,11 +8,16 @@ function About({ onScrollClick }) {
 
   return (
     <SectionLayout alternate onScrollClick={onScrollClick}>
-      <h1>About Section</h1>
+      <h1 className={classes.heading}>About Section</h1>
     </SectionLayout>
   );
 }
 
 export default About;
 
-const useStyle = makeStyles((theme) => ({}));
+const useStyle = makeStyles((theme) => ({
+  heading: {
+    fontFamily: theme.typography.fontFamily,
+    fontSize: '3em',
+  },
+}));

@@ -8,11 +8,16 @@ function Contact() {
 
   return (
     <SectionLayout alternate lastSection>
-      <h1>Contact Section</h1>
+      <h1 className={classes.heading}>Contact Section</h1>
     </SectionLayout>
   );
 }
 
 export default Contact;
 
-const useStyle = makeStyles((theme) => ({}));
+const useStyle = makeStyles((theme) => ({
+  heading: {
+    fontFamily: theme.typography.fontFamily,
+    fontSize: '3em',
+  },
+}));

@@ -8,11 +8,16 @@ function Focus({ onScrollClick }) {
 
   return (
     <SectionLayout onScrollClick={onScrollClick}>
-      <h1>Focus Section</h1>
+      <h1 className={classes.heading}>Focus Section</h1>
     </SectionLayout>
   );
 }
 
 export default Focus;
 
-const useStyle = makeStyles((theme) => ({}));
+const useStyle = makeStyles((theme) => ({
+  heading: {
+    fontFamily: theme.typography.fontFamily,
+    fontSize: '3em',
+  },
+}));
