@@ -8,7 +8,7 @@ import DrawerList from './DrawerList';
 
 const useStyles = makeStyles((theme) => ({
   div: {
-    width: 200,
+    width: '45%',
   },
   list: {
     '&:focus': {
@@ -41,14 +41,12 @@ const TemporaryDrawer = () => {
 
   return (
     <div>
-      <React.Fragment>
-        <Button onClick={toggleDrawer(true)} className={classes.button}>
-          <MenuRoundedIcon fontSize='large' color='primary' />
-        </Button>
-        <Drawer anchor='right' open={state} onClose={toggleDrawer(false)}>
-          <DrawerList toggleDrawer={toggleDrawer} />
-        </Drawer>
-      </React.Fragment>
+      <Button onClick={toggleDrawer(true)} className={classes.button}>
+        <MenuRoundedIcon fontSize='large' color='primary' />
+      </Button>
+      <Drawer anchor='right' open={state} onClose={toggleDrawer(false)}>
+        <DrawerList toggleDrawer={toggleDrawer} />
+      </Drawer>
     </div>
   );
 };

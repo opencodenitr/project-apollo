@@ -5,8 +5,8 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 
 import createBrowserHistory from '../history';
-import Hello from './Hello';
-import Navbar from './Navbar';
+import Home from './Home';
+import Navbar from '../components/Navbar';
 
 import theme from '../theme';
 
@@ -15,10 +15,10 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router history={createBrowserHistory}>
+        <Navbar />
         <Switch>
-          <Navbar />
           <Route path='/' exact>
-            <Hello />
+            <Home />
           </Route>
           <Redirect to='/' />
         </Switch>
