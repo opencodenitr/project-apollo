@@ -5,7 +5,6 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
-  
     {
       "login": "DesignrKnight",
       "name": "Abel Mathew",
@@ -14,10 +13,9 @@
       "contributions": [
         "projectManagement",
         "code"
-        ]
-      },
-      
-      {
+      ]
+    },
+    {
       "login": "ankitkumarsamota121",
       "name": "Ankit Samota",
       "avatar_url": "https://avatars0.githubusercontent.com/u/46669484?v=4",
@@ -25,10 +23,9 @@
       "contributions": [
         "projectManagement",
         "code"
-        ]
-      },
-      
-      {
+      ]
+    },
+    {
       "login": "007vedant",
       "name": "Vedant Raghuwanshi",
       "avatar_url": "https://avatars3.githubusercontent.com/u/41552480?v=4",
@@ -36,10 +33,9 @@
       "contributions": [
         "projectManagement",
         "code"
-       ]
-      },
-      
-      {
+      ]
+    },
+    {
       "login": "nayakashutosh9",
       "name": "Ashutosh Nayak",
       "avatar_url": "https://avatars2.githubusercontent.com/u/43809818?v=4",
@@ -47,9 +43,8 @@
       "contributions": [
         "maintenance",
         "projectManagement"
-        ]
-        },
-      
+      ]
+    },
     {
       "login": "KoushikSahu",
       "name": "Koushik Sahu",
@@ -59,8 +54,7 @@
         "doc"
       ]
     },
-    
-     {
+    {
       "login": "riteshsp2000",
       "name": "Ritesh Patil",
       "avatar_url": "https://avatars3.githubusercontent.com/u/56112399?v=4",
@@ -68,16 +62,24 @@
       "contributions": [
         "projectManagement",
         "code"
-        ]
-     },
-    
-        {
+      ]
+    },
+    {
       "login": "all-contributors",
       "name": "All Contributors",
       "avatar_url": "https://avatars1.githubusercontent.com/u/46410174?v=4",
       "profile": "https://allcontributors.org",
       "contributions": [
         "tool"
+      ]
+    },
+    {
+      "login": "Vedant1202",
+      "name": "Vedant  Nandoskar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35070972?v=4",
+      "profile": "https://vedantnandoskar.herokuapp.com/",
+      "contributions": [
+        "code"
       ]
     }
   ],
