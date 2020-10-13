@@ -12,7 +12,7 @@ ReactDOM.render(
   <Root>
     <App />
   </Root>,
-  document.querySelector('#root')
+  document.querySelector('#root'),
 );
 
 // If you want your app to work offline and load faster, you can change
