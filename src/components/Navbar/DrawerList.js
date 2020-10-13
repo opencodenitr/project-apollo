@@ -5,7 +5,7 @@ import { Link as RouteLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { List, ListItem, ListItemText } from '@material-ui/core';
 
-import { changeRoute } from '../../actions';
+import { changeRoute } from '../../actions/route.action';
 
 const useStyles = makeStyles((theme) => ({
   root: {

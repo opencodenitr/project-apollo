@@ -4,11 +4,11 @@ import { Router, Route, Redirect, Switch } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 
-import createBrowserHistory from '../history';
+import createBrowserHistory from '../config/history';
 import Home from './Home';
 import Navbar from '../components/Navbar';
 
-import theme from '../theme';
+import theme from '../config/theme';
 
 const App = () => {
   return (

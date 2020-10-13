@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './Root';
+import Root from './config/Root';
 import App from './views/App';
 
 // import './index.css';
