@@ -15,3 +15,16 @@ jobs:
             - run: npm ci
             - run: npm test
             - run: npm run build
+    prettier_format:
+            runs-on: ubuntu-latest
+            steps:
+              - uses: actions/checkout@v2
+              - name: Install
+                run: yarn install
+                env:
+                    CI: true
+              - name: Run prettier
+                run: yarn run prettier --write 'src/**/*.{css,js,jsx}'
+              - uses: stefanzweifel/git-auto-commit-action@v4
+                with:
+                    commit_message: Apply prettier changes
