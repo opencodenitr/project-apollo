@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './Root';
+import Root from './config/Root';
 import App from './views/App';
 
 // import './index.css';
@@ -12,7 +12,7 @@ ReactDOM.render(
   <Root>
     <App />
   </Root>,
-  document.querySelector('#root')
+  document.querySelector('#root'),
 );
 
 // If you want your app to work offline and load faster, you can change
