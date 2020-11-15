@@ -5,13 +5,16 @@ import { Link as RouteLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { List, ListItem, ListItemText } from '@material-ui/core';
 
-import { changeRoute } from '../../actions';
+import { changeRoute } from '../../actions/route.action';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: '60vw',
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
+  },
+  listItemText: {
+    textAlign: 'right',
   },
 }));
 
@@ -32,7 +35,7 @@ const DrawerList = ({ selectedRoute, changeRoute, toggleDrawer }) => {
           component={RouteLink}
           to='/'
         >
-          <ListItemText primary='HOME' />
+          <ListItemText primary='HOME' className={classes.listItemText} />
         </ListItem>
         <ListItem
           button
@@ -41,7 +44,7 @@ const DrawerList = ({ selectedRoute, changeRoute, toggleDrawer }) => {
           component={RouteLink}
           to='/skills'
         >
-          <ListItemText primary='EVENTS' />
+          <ListItemText primary='EVENTS' className={classes.listItemText} />
         </ListItem>
         <ListItem
           button
@@ -50,7 +53,7 @@ const DrawerList = ({ selectedRoute, changeRoute, toggleDrawer }) => {
           component={RouteLink}
           to='/projects'
         >
-          <ListItemText primary='PROJECTS' />
+          <ListItemText primary='PROJECTS' className={classes.listItemText} />
         </ListItem>
         <ListItem
           button
@@ -59,7 +62,7 @@ const DrawerList = ({ selectedRoute, changeRoute, toggleDrawer }) => {
           component={RouteLink}
           to='/contact'
         >
-          <ListItemText primary='TEAM' />
+          <ListItemText primary='TEAM' className={classes.listItemText} />
         </ListItem>
       </List>
     </div>

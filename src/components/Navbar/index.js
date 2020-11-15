@@ -1,6 +1,4 @@
 import React from 'react';
-// import { useEffect } from 'react';
-// import { useLocation } from 'react-router-dom';
 
 import { useScrollTrigger } from '@material-ui/core';
 import PropTypes from 'prop-types';
@@ -61,7 +59,7 @@ ElevationScroll.propTypes = {
   children: PropTypes.element.isRequired,
 };
 
-const Navbar = (props) => {
+const Navbar = () => {
   const classes = useStyles();
 
   return (
