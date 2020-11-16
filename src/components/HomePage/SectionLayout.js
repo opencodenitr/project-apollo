@@ -9,7 +9,7 @@ function SectionLayout({ children, lastSection, onScrollClick, alternate }) {
   return (
     <Container
       className={classes.container}
-      style={{ backgroundColor: alternate ? 'red' : 'blue' }}
+      style={{ backgroundColor: alternate ? 'red' : 'black' }}
     >
       {children}
       {lastSection ? null : (
