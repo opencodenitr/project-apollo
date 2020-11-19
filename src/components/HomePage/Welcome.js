@@ -10,43 +10,42 @@ function Welcome({ onScrollClick }) {
 
   return (
     <SectionLayout onScrollClick={onScrollClick}>
-      <Grid container>
-        {/*---the svg image (bulb)---*/}
-        <Grid
-          item
-          xs={12}
-          container
-          className={classes.svgContainer}
-          direction='row'
-          justify='center'
-          alignItems='center'
-        >
-          <Grid item xs={12} style={{ textAlign: 'center' }}>
-            <ReactSvgImg width='600px' height='500px' />
-          </Grid>
+      
+      
+      {/*---the svg image (bulb)---*/}
+      
+      <Grid
+        container
+        xs={12}
+        direction='row'
+        justify='center'
+        alignItems='center'
+        className={classes.svgContainer}
+      >
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <ReactSvgImg />
         </Grid>
+      </Grid>
 
-        {/*----- Text ----- */}
+      {/*----- Text ----- */}
 
-        <Grid
-          item
-          xs={12}
-          container
-          className={classes.textContainer}
-          direction='row'
-          justify='center'
-          alignItems='center'
-        >
-          <Grid item xs={12} style={{ textAlign: 'center' }}>
-            <Typography gutterBottom variant='h2'>
-              WELCOME TO
-            </Typography>
-          </Grid>
-          <Grid item xs={12} style={{ textAlign: 'center' }}>
-            <Typography gutterBottom variant='h1'>
-              <div className={classes.line}>OPENCODE</div>
-            </Typography>
-          </Grid>
+      <Grid
+        container
+        xs={12}
+        direction='column'
+        justify='center'
+        alignItems='center'
+        className={classes.textContainer}
+      >
+        <Grid item xs={12}>
+          <Typography gutterBottom variant='h2'>
+            WELCOME TO
+          </Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography gutterBottom variant='h1'>
+            OPENCODE
+          </Typography>
         </Grid>
       </Grid>
     </SectionLayout>
@@ -60,24 +59,46 @@ const useStyle = makeStyles((theme) => ({
     position: 'absolute',
     top: '0',
     height: '100%',
+
+    '& svg': {
+      width: '600px',
+      height: '500px',
+      [theme.breakpoints.down('sm')]: {
+        width: '480px',
+        height: '400px',
+      },
+      [theme.breakpoints.down('xs')]: {
+        width: '340px',
+        height: '300px',
+      },
+    },
   },
+
   textContainer: {
     fontFamily: theme.typography.fontFamily,
-    alignSelf: 'center',
+    color: 'white',
 
     '& h2': {
-      fontSize: '2.5rem',
-      lineHeight: '4.2rem',
-      letterSpacing: '1.2rem',
+      [theme.breakpoints.up('sm')]: {
+        letterSpacing: '.5.0rem',
+      },
+      [theme.breakpoints.up('md')]: {
+        letterSpacing: '1.0rem',
+      },
+
       fontWeight: '700',
       mixBlendMode: 'difference',
     },
 
     '& h1': {
       color: 'black',
-      fontSize: '3rem',
-      lineHeight: '4.2rem',
-      letterSpacing: '3rem',
+      [theme.breakpoints.up('sm')]: {
+        letterSpacing: '1.0rem',
+      },
+      [theme.breakpoints.up('md')]: {
+        letterSpacing: '2.0rem',
+      },
+
       fontWeight: '700',
       WebkitTextStroke: '1px whitesmoke',
       textShadow: '1px 1px 0px #e3e3e3',
