@@ -9,6 +9,7 @@ let theme = createMuiTheme({
     background: {
       paper: '#00587a',
       default: '#0f3057',
+      darkgrey: '#222222',
     },
   },
   breakpoints: {

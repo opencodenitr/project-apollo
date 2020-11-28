@@ -26,9 +26,8 @@ export default SectionLayout;
 
 const useStyle = makeStyles((theme) => ({
   container: {
-    height: '95vh',
-    padding: theme.spacing(0, 1),
-    paddingTop: theme.mixins.toolbar.minHeight,
+    minHeight: '95vh',
+    padding: 0,
     position: 'relative',
     display: 'flex',
     justifyContent: 'center',
