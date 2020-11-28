@@ -26,7 +26,7 @@ function Focus({ onScrollClick }) {
           </Grid>
 
           {/* Carousel */}
-          <Grid item xs={12} sm={6} style={{margin:'0 auto'}}>
+          <Grid item xs={12} md={6} style={{margin:'0 auto'}}>
             <Carousel 
               className={classes.carousel} 
               interval='10000' 
