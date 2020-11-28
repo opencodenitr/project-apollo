@@ -12,7 +12,6 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "moxios": "^0.4.0",
-    "node-sass": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-material-ui-carousel": "^2.1.1",

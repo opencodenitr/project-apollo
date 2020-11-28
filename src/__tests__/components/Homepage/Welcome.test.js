@@ -39,7 +39,7 @@ it('renders focus section content', () => {
   act(() => {
     render(<Focus />, container);
   });
-  expect(container.textContent).toBe('Focus Section');
+  expect(container.textContent).toBe('Our Focus');
 });
 
 it('renders contact us section content', () => {
